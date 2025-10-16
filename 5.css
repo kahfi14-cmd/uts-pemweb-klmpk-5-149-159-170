@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(klambi.jpg);
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.about-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+
+/* Header */
+header {
+  background-color: #1e1e1e;
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 2px solid #00bfff;
+}
+
+header h1 {
+  color: #00bfff;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav ul li a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover,
+.active {
+  color: #00bfff;
+}
+
+/* Produk */
+.container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.product {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 0 15px rgba(0, 191, 255, 0.1);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #00bfff;
+}
+
+.price {
+  color: #00bfff;
+  font-weight: bold;
+}
+
+/* Tombol */
+button {
+  background-color: #00bfff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #008ecc;
+}
+
+/* Pesan Animasi */
+.buy-msg {
+  margin-top: 10px;
+  color: #00ff99;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.buy-msg.show {
+  opacity: 1;
+}
+
+/* Tentang Kami */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 30px;
+  gap: 40px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+.about-photo img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00bfff;
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.3);
+}
+
+.highlight {
+  color: #00bfff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.about-text h3 {
+  color: #ccc;
+  margin-top: 0;
+}
+
+.about-text p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* WhatsApp */
+.wa-link {
+  display: inline-block;
+  background-color: #25D366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.wa-link:hover {
+  background-color: #1DA851;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e1e1e;
+  border-top: 2px solid #00bfff;
+}
+
+.hidden {
+  display: none;
+}
